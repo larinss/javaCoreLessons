@@ -87,6 +87,8 @@ public class Sample01 {
 
         };
 
+        //Обрабатываем с помощью конструкции try catch наши исключения MyArraySizeException и MyArrayDataException
+
         try {
             System.out.println("1. Используем корректный массив, который не будет возбуждать исключения");
             System.out.println(changeArray(correctArray));
